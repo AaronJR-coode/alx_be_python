@@ -18,4 +18,4 @@ match operation:
             print("Invalid operation! Please choose from +, -, *, /")
 
 
-print(f"The result of {num1} {operation} {num2} is: {result}")
+print(f"The result is: {result}")
