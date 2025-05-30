@@ -16,6 +16,8 @@ if time_bound == 'yes':
     message += f"'{task}' is time-sensitive and requires immediate attention today!"
 elif time_bound == 'no':
     message += f"'{task}' is a low priority task. Consider completing it when you have free time"
+else:
+    print("Reminder")
 
 
 print("\n--- Reminder --- ")
