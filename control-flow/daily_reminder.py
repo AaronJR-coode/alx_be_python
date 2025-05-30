@@ -17,4 +17,5 @@ if time_bound == 'yes':
 elif time_bound == 'no':
     message += f"'{task}' is a low priority task. Consider completing it when you have free time"
 
+print(Reminder)
 print(message)
