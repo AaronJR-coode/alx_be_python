@@ -4,13 +4,13 @@ time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority:
     case 'high':
-        message = f"Reminder: "
+        message = "Reminder: "
     case 'medium':
-        message = f"Reminder: "
+        message = "Reminder: "
     case 'low':
-        message = f"Note: "
+        message = "Note: "
     case _:
-        message = f"Task: "
+        message = "Task: "
 
 if time_bound == 'yes':
     message += f"'{task}' is time-sensitive and requires immediate attention today!"
